@@ -1,12 +1,12 @@
-resource "random_string" "suffix" {
-    length = 8
-    special = false
+# resource "random_string" "suffix" {
+#     length = 8
+#     special = false
   
-}
+# }
 
 
 locals {
-  cluster_name = "deepu-eks-$(random_string.suffix.result)"
+  cluster_name = "deepu-eks"
 }
 
 module "eks" {
@@ -17,7 +17,7 @@ module "eks" {
   cluster_version = var.cluster_version
 
   cluster_endpoint_public_access = true
-
+ 
   cluster_addons = {
     coredns = {
       most_recent = true

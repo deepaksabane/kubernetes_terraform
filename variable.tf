@@ -32,11 +32,14 @@ variable "Environment" {
 }
 #https://youtu.be/r-DU2HUFvYY?si=lyio3nvjji-sB7Jz
 
-variable "role_name" {
-  description = "rolename"
+# variable "role_name" {
+#   description = "rolename"
+#   type = string
   
-}
-variable "policy_arn" {
-  description = "policy arn"
+# }
+# variable "policy_arn" {
+#   description = "policy arn"
+#   type = string
   
-}
+# }
+

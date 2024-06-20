@@ -3,3 +3,7 @@ provider "aws" {
 }
 
 
+# provider "kubernetes" {
+#    config_path = "C:\\Users\\SabaneDeepak\\.kube\\config"
+# }
+
