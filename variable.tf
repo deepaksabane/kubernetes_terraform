@@ -29,3 +29,4 @@ variable "Environment" {
   description = "In which the resources are created"
   
 }
+#https://youtu.be/r-DU2HUFvYY?si=lyio3nvjji-sB7Jz
